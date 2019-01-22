@@ -1,0 +1,67 @@
+1. What is the Java Virtual Machine and what is byte code?  
+Java virtual machine JVM = JVM is a virtual machine that enables a computer to run Java programs as well as programs written in other languages and compiled to Java bytecode. 
+Byte code = bytecode is the result of the compilation of a Java program.
+
+2. How do you compile and run your java program without the help of an Integrated Development Environment (IDE) (e.g., an IDE like Eclipse)? 
+In the terminal, javac for example.
+
+3. What is a main method in java? Explain signature parts of the main method? 
+A Java application is a public Java class with a main() method. The main() method is the start point of the application. 
+Signature: public static void main(String[] args) 
+
+4. What are wrapper classes?  
+A class’ object that wraps or contains a primitive data type.
+
+5. What is a constructor? 
+A block of code that initializes the newly created object.
+
+6. What is a package? Why is important to declare classes inside packages? 
+A pack of group, classes, interfaces etc for a java project.
+A package as the name suggests is a pack(group) of classes, interfaces and other packages. 
+It is important because we need to organize our classes and interfaces.
+
+7. Which access modifiers are available in Java? What is the default visibility or access level for classes, methods, and fields? 
+Public
+Protected
+Private
+
+8. What is the difference between equals() and == ? 
+equals() = equality of objects
+== = compare primitives
+
+9. What is method overloading and method overriding? 
+Overloading =  when two or more methods in one class have the same method name but different parameters. 
+Overriding =  having two methods with the same method name and parameters 
+
+10. What are different ways to iterate over a list? 
+For Loop
+Advanced For Loop
+Iterator 
+While Loop
+Collection’s stream() util (Java8)
+
+11. What are the basic interfaces of Java Collections Framework? 
+Set
+List
+Queue
+Deque
+
+12. What it means by Generics in Java, why do we need Generics?
+Generics are a facility of generic programming. 
+
+We need generics to extend Java's type system to allow “a type or method to operate on objects of various types while providing compile-time type safety”.
+
+13. In the context of Java, what is an Exception? And what is an Error?  
+An event that occurs during the execution that interferes the normal flow of the program.
+
+An error occurs the method it happens in creates an object and “gives it”  to the runtime system.
+
+14. What is unit testing? And what is JUnit?
+ Unit testing = testing the smaller units of your application, like classes, interfaces and methods. JUnit =  an unit testing framework.
+
+15. How do I write a test that passes when an expected exception is thrown? With a try catch block.
+try {
+//doing something
+} catch(exception(type) e(object)){
+//error handling
+}
